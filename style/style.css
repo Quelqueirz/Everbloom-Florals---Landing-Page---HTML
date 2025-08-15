@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: jost, sans-serif;
+    background: linear-gradient(120deg, #fdf5e6 60%, #e6ffe6 100%);
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.cabecalho__logo {
+    width: 184px;
+    height:184px;
+    margin-left: 7rem;
+}
+
+.cabecalho__menu {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    align-items: right;
+    margin-left:17rem;
+}
+
+.cabecalho__navbar {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.botao__entrar{
+    text-decoration: none;
+    color: black;
+    border:1px solid black;
+    border-radius:10px;
+    padding: 0.3rem 1rem;
+    margin-left: 35rem;
+}
+
+
+.conteudo {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin-left: 12rem;
+    margin-top: 4rem;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 100px;
+    color:#2F4F4F;
+    line-height: 1;
+}
+
+p {
+    font-weight: regular;
+    font-size: 24px;
+    color: #4F4F4F;
+}
+
+.botao__peca__agora {
+    text-decoration: none;
+    border: 1px solid #556B2F;
+    border-radius: 10px;
+    padding: 0.5rem 1rem; 
+    color: #f7f7f7;
+    background-color: #556B2F;
+    font-weight: bold;
+}
+
+.botao__ver__catalogo {
+    text-decoration: none;
+    color: #556B2F;
+    border: 1px solid #556B2F;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+}
+
+.botoes {
+    gap: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.imagens {
+    width: 497px;
+    height: 746px;
+    object-fit: contain;  
+    object-position: center right; 
+}
